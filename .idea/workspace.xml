@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b64a118-f939-41fa-a476-5b553229cbf0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1qJBF41iwhR3QEYYitzJ9DSdqBX" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/modules" />
+    </key>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../adx/CRM" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../adx/estate" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../adx/mission" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../appli_mobile_smeno" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../bricks/mariadb-orbit/orbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../java-play" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../orbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../orbit2/orbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../orbit3/orbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../orbit_original/orbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../play-samples-play-scala-hello-world-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../playframwork/play-samples/play-java-rest-api-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../playframwork/play-samples/play-java-websocket-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../playframwork/play-samples/play-scala-chatroom-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../playframwork/play-samples/play-scala-hello-world-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../playframwork/play-samples/play-scala-rest-api-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../playframwork/play-samples/play-scala-websocket-example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b64a118-f939-41fa-a476-5b553229cbf0" name="Default Changelist" comment="" />
+      <created>1616787705504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616787705504</updated>
+      <workItem from="1616787707466" duration="18456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="504" y="304" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616787993947">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="504" y="304" key="#com.intellij.fileTypes.FileTypeChooser/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616787993947" />
+    <state width="1636" height="252" key="GridCell.Tab.0.bottom" timestamp="1616792758721">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.bottom/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758721" />
+    <state width="1636" height="252" key="GridCell.Tab.0.center" timestamp="1616792758720">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.center/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758720" />
+    <state width="1636" height="252" key="GridCell.Tab.0.left" timestamp="1616792758719">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.left/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758719" />
+    <state width="1636" height="252" key="GridCell.Tab.0.right" timestamp="1616792758721">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.right/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758721" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1616863376327">
+      <screen x="-85" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616863376327" />
+    <state x="217" y="221" key="new project wizard" timestamp="1616787920381">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="217" y="221" key="new project wizard/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616787920381" />
+  </component>
+</project>
