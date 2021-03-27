@@ -3,6 +3,8 @@ const logger = require('../../../utils/logger')
 
 class MoviesService {
     imgPath = 'https://image.tmdb.org/t/p/w500/';
+    latest = 9000;
+
     constructor({url, api_key}) {
         logger.info('Movies API init')
         this.request = axios.create({
@@ -33,8 +35,9 @@ class MoviesService {
         })
     }
 
-    getRandomMovie() {
-        const random = this.getRandomInt(9000) + 1;
+    async getRandomMovie() {
+        this.latest = await this.getLastMovieId(); // in the intention to optimize speed we can comment this line
+        const random = this.getRandomInt(this.latest) + 1;
         return this.request.get(`/movie/${String(random)}`, {
             params: this.params
         }).then(res => {
@@ -51,12 +54,41 @@ class MoviesService {
         })
     }
 
-    getRandomInt(max) {
-        return Math.floor(Math.random() * Math.floor(max));
+    casting(movieId) {
+        return this.request.get(`/movie/${String(movieId)}/credits`, {
+            params: this.params
+        }).then(res => {
+            return res.data.cast.map(actor => ({
+                name: actor.name,
+                img: this.imgPath + actor['profile_path'],
+                character: actor['character']
+            }))
+        }).catch((error) => {
+            return {
+                msg: error.message
+            }
+        })
     }
 
-    casting() {
+    randomCasting() {
+        const random = this.getRandomInt(this.latest);
+        return this.casting(random);
+    }
 
+    getLastMovieId() {
+        return this.request.get(`/movie/latest`, {
+            params: this.params
+        }).then(res => {
+            return res.data.id;
+        }).catch((error) => {
+            return {
+                msg: error.message
+            }
+        })
+    }
+
+    getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
     }
 }
 

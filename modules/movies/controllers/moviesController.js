@@ -16,6 +16,19 @@ class MoviesController {
             .catch(next)
     }
 
+    casting(req, res, next) {
+        const {movieId} = req.params;
+        return MoviesService.casting(movieId)
+            .then(casting => res.status(200).json(casting))
+            .catch(next)
+    }
+
+    randomCasting(req, res, next) {
+        return MoviesService.randomCasting()
+            .then(casting => res.status(200).json(casting))
+            .catch(next)
+    }
+
 }
 
 module.exports = new MoviesController();
