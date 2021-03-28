@@ -10,4 +10,8 @@ router.get('/:movieId/casting', moviesController.casting.bind(moviesController))
 
 router.get('/casting/random', moviesController.randomCasting.bind(moviesController));
 
+router.get('/movie/latest', moviesController.latestMovieId.bind(moviesController));
+
+
+
 module.exports = router;

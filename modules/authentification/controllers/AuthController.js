@@ -13,6 +13,7 @@ class AuthController {
             .then(token => res.status(200).json(token))
             .catch(next)
     }
+
 }
 
 module.exports = new AuthController();

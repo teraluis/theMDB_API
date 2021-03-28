@@ -1,6 +1,13 @@
 const axios = require('axios');
-
+/*
+    The authentication service can be used to validate a TMDb user login
+    With a request token in hand, forward your user to the following URL:
+    https://www.themoviedb.org/authenticate/{REQUEST_TOKEN}
+    You can also pass this URL a redirect_to parameter, ie:
+    https://www.themoviedb.org/authenticate/{REQUEST_TOKEN}?redirect_to=http://www.yourapp.com/approved
+ */
 class AuthService {
+
     constructor({url, api_key}) {
         this.request = axios.create({
             baseURL: url,
@@ -36,20 +43,6 @@ class AuthService {
         })
     }
 
-    createSession(req, res) {
-        return this.request.post('/session/new', {
-            params: this.params,
-            body: {
-                "request_token": res.body.token
-            }
-        }).then(res => {
-            return res.data
-        }).catch((error) => {
-            return {
-                msg: error.message
-            }
-        })
-    }
 }
 
 module.exports = new AuthService({

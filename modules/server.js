@@ -18,9 +18,9 @@ class Server {
         this.app.get('/api', (req, res) => {
             res.send('welcome to the MDB API')
         })
-        this.app.use('/api', require('./authentification/routes/AuthRoutes'));
+        this.app.use('/api/auth', require('./authentification/routes/AuthRoutes'));
 
-        this.app.use('/api/movies/', require('./movies/routes/MoviesRoutes'));
+        this.app.use('/api/movies', require('./movies/routes/MoviesRoutes'));
     }
 
     listen() {

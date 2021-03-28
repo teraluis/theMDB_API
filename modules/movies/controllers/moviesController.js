@@ -11,7 +11,8 @@ class MoviesController {
     }
 
     randomMovie(req, res, next) {
-        return MoviesService.getRandomMovie()
+        const {latest = 9000} = req.query;
+        return MoviesService.getRandomMovie(latest)
             .then(movie => res.status(200).json(movie))
             .catch(next)
     }
@@ -24,11 +25,17 @@ class MoviesController {
     }
 
     randomCasting(req, res, next) {
-        return MoviesService.randomCasting()
+        const {latest = 9000} = req.query;
+        return MoviesService.randomCasting(latest)
             .then(casting => res.status(200).json(casting))
             .catch(next)
     }
 
+    latestMovieId(req, res, next) {
+        return MoviesService.getLastMovieId()
+            .then(latest => res.status(200).json(latest))
+            .catch(next)
+    }
 }
 
 module.exports = new MoviesController();
