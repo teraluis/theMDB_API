@@ -39,7 +39,11 @@ class MoviesService {
 
     getRandomMovie(latest) {
         const random = Rand.getRandomInt(latest);
-        return this.request.get(`/movie/${String(random)}`, {
+        return this.getMovieById(random);
+    }
+
+    getMovieById(movieId) {
+        return this.request.get(`/movie/${String(movieId)}`, {
             params: this.params
         }).then(res => {
             return {

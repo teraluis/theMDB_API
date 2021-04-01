@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b64a118-f939-41fa-a476-5b553229cbf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/Rand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/movies/controllers/movieDbController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/movies/model/movieModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/movies/routes/MoviesDbRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MoviesTests.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/authentification/controllers/AuthController.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/authentification/controllers/AuthController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/authentification/service/AuthService.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/authentification/service/AuthService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/movies/controllers/moviesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/controllers/moviesController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/movies/routes/MoviesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/routes/MoviesRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/movies/service/MoviesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/service/MoviesService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.10.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -87,7 +95,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616787705504</updated>
-      <workItem from="1616787707466" duration="28717000" />
+      <workItem from="1616787707466" duration="35983000" />
+      <workItem from="1616938115631" duration="11077000" />
+      <workItem from="1617118558502" duration="11394000" />
     </task>
     <servers />
   </component>
@@ -99,26 +109,34 @@
       <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="504" y="304" key="#com.intellij.fileTypes.FileTypeChooser/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616787993947" />
-    <state width="1636" height="252" key="GridCell.Tab.0.bottom" timestamp="1616792758721">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1636" height="252" key="GridCell.Tab.0.bottom" timestamp="1616938093314">
+      <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.bottom/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616938093314" />
     <state width="1636" height="252" key="GridCell.Tab.0.bottom/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758721" />
-    <state width="1636" height="252" key="GridCell.Tab.0.center" timestamp="1616792758720">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1636" height="252" key="GridCell.Tab.0.center" timestamp="1616938093313">
+      <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.center/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616938093313" />
     <state width="1636" height="252" key="GridCell.Tab.0.center/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758720" />
-    <state width="1636" height="252" key="GridCell.Tab.0.left" timestamp="1616792758719">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1636" height="252" key="GridCell.Tab.0.left" timestamp="1616938093312">
+      <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.left/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616938093312" />
     <state width="1636" height="252" key="GridCell.Tab.0.left/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758719" />
-    <state width="1636" height="252" key="GridCell.Tab.0.right" timestamp="1616792758721">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1636" height="252" key="GridCell.Tab.0.right" timestamp="1616938093313">
+      <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1636" height="252" key="GridCell.Tab.0.right/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616938093313" />
     <state width="1636" height="252" key="GridCell.Tab.0.right/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616792758721" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1616863376327">
       <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
     <state width="500" height="445" key="SwitcherDM/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616863376327" />
+    <state x="558" y="265" width="683" height="486" key="find.popup" timestamp="1617018143996">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="558" y="265" width="683" height="486" key="find.popup/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1617018143996" />
     <state x="629" y="-663" key="git4idea.ui.GitTagDialog" timestamp="1616881580577">
       <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
