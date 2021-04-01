@@ -21,9 +21,10 @@ let MovieSchema = new Schema({
     }
 });
 
-MovieSchema.toJSON = function () {
-    const { __v, _id, ...movie} = this.toObject();
-    movie.id = movie.movieIdAPI;
+MovieSchema.methods.toJSON = function () {
+    const { __v, _id, movieIdAPI, image, ...movie} = this.toObject();
+    movie.id = movieIdAPI;
+    movie.img = image;
     return movie;
 };
 MovieSchema.plugin(uniqueValidator, { message: '{PATH} must be unique' });

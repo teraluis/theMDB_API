@@ -11,7 +11,7 @@ class MoviesService {
         logger.info('Movies API init')
         this.request = axios.create({
             baseURL: url,
-            timeout: 1000,
+            timeout: 2000,
             params: this.params
         });
         this.params = {

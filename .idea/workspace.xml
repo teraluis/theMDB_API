@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b64a118-f939-41fa-a476-5b553229cbf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/movies/controllers/movieDbController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/movies/model/movieModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/movies/routes/MoviesDbRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MoviesTests.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midelware/movieIdValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midelware/validFields.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/movies/controllers/moviesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/controllers/moviesController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/movies/routes/MoviesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/routes/MoviesRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/movies/controllers/movieDbController.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/controllers/movieDbController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/movies/model/movieModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/model/movieModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/movies/routes/MoviesDbRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/routes/MoviesDbRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/movies/service/MoviesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/service/MoviesService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -58,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/midelware" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/modules" />
     </key>
@@ -97,7 +92,8 @@
       <updated>1616787705504</updated>
       <workItem from="1616787707466" duration="35983000" />
       <workItem from="1616938115631" duration="11077000" />
-      <workItem from="1617118558502" duration="11394000" />
+      <workItem from="1617118558502" duration="11593000" />
+      <workItem from="1617300059542" duration="4323000" />
     </task>
     <servers />
   </component>
@@ -141,9 +137,10 @@
       <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
     <state x="629" y="-663" key="git4idea.ui.GitTagDialog/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1616881580577" />
-    <state x="217" y="221" key="new project wizard" timestamp="1616787920381">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state x="163" y="-835" key="new project wizard" timestamp="1617314651770">
+      <screen x="-85" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="163" y="-835" key="new project wizard/-85.-1057.1920.1057/0.23.1680.943@-85.-1057.1920.1057" timestamp="1617314651770" />
     <state x="217" y="221" key="new project wizard/-85.-1057.1920.1057/0.23.1680.943@0.23.1680.943" timestamp="1616787920381" />
   </component>
 </project>

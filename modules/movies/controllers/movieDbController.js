@@ -4,8 +4,8 @@ class MovieDbController {
 
     getById = async (req, res) => {
         const {id} = req.params;
-        const movie = await Movie.find({movieIdAPI: Number(id)}).exec();
-        const first = movie[0];
+        const movies = await Movie.find({movieIdAPI: Number(id)}).exec();
+        const first = movies[0];
         return res.json({
             id: first.movieIdAPI,
             title: first.title,
@@ -15,13 +15,19 @@ class MovieDbController {
 
     addMovie = async (req, res) => {
         const {id, title, image} = req.body;
-        const movie = new Movie({movieIdAPI: id, title: title, image: image});
-        await movie.save();
-        return res.json({
-            id: movie.movieIdAPI,
-            title: movie.title,
-            img: movie.image
-        });
+        const movies = await Movie.find({movieIdAPI: Number(id)}).exec();
+        if (movies.length === 0) {
+            const movie = new Movie({movieIdAPI: id, title: title, image: image});
+            await movie.save();
+            return res.json({
+                id: movie.movieIdAPI,
+                title: movie.title,
+                img: movie.image
+            });
+        } else {
+            return res.json({msg: 'already in database'});
+        }
+
     }
 
     getAllMovies = async (req, res) => {
