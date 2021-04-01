@@ -11,7 +11,7 @@ let MovieSchema = new Schema({
     },
     title: {
         type: String,
-        unique: true,
+        unique: false,
         required: [true, 'title is mandatory']
     },
     image: {

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b64a118-f939-41fa-a476-5b553229cbf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/midelware/movieIdValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/midelware/validFields.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/movies/controllers/movieDbController.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/controllers/movieDbController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/movies/model/movieModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/model/movieModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/movies/routes/MoviesDbRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/routes/MoviesDbRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/movies/service/MoviesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/movies/service/MoviesService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <workItem from="1616787707466" duration="35983000" />
       <workItem from="1616938115631" duration="11077000" />
       <workItem from="1617118558502" duration="11593000" />
-      <workItem from="1617300059542" duration="4323000" />
+      <workItem from="1617300059542" duration="4971000" />
     </task>
     <servers />
   </component>
