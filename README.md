@@ -2,6 +2,10 @@
 
 With the movie data base api you can directly request theMDB API to get movies list castings etc...
 
+## Requirements
+
+A Mongose Data Base
+
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com) to install theMDBAPI.
@@ -23,13 +27,16 @@ npm test
 ## Configuration
 
 Open the .env file and then you can change the port
-the api key and the latest id of the movie database to reduce
-or increase the rand spectrum.
+the api key and the latest id of the movie database API (to reduce
+or increase the rand spectrum for the rand route) and the mongose database configuration.
+
 exemple :
 ```bash
 PORT = 8080
 API_KEY = 123456789
 LATEST = 10000
+DATABASE_PORT = 27017
+DATABASE_NAME = theMDB
 ```
 ## Usage exemple
 

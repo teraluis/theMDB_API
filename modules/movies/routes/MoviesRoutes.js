@@ -12,6 +12,6 @@ router.get('/movie/random', moviesController.randomMovie.bind(moviesController))
 
 router.get('/casting/random', moviesController.randomCasting.bind(moviesController));
 
-router.get('/search', moviesController.searchMovie.bind(moviesController));
+router.get('/search/movie', moviesController.searchMovie.bind(moviesController));
 
 module.exports = router;
